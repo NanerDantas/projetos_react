@@ -4,6 +4,6 @@ type ExemploProps = {
 
 export function Exemplo(props: ExemploProps) {
     return (
-        <p>{props.text}</p>
+        <p>{props.text}</p>                         //sempre usar {} quando for usar js no html
     );
 }

@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       {exemplos.map(exemplos => {
-        return <Exemplo text={exemplos} />
+        return <Exemplo text={exemplos} />          //sempre usando {} quando usar js em html
       })}
 
       <button 
